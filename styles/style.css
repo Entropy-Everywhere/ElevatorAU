@@ -1,0 +1,41 @@
+/*
+#5a3e36
+#8e5f57
+#c48b7c
+#e6b8a2
+#f3d9c6
+*/
+
+body {
+	background-color: #5a3e36;
+    background-image: linear-gradient(to bottom, #5a3e36 0%, #8e5f57 74%);
+	color: #e6b8a2;
+}
+
+header {
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  padding: 10px;
+  background-color: #c48b7c;
+	color: #5a3e36;
+	border: 2px solid #f3d9c6;
+	padding: 5px;
+
+  :any-link {
+    color: #5a3e36;
+  }
+}
+
+footer {
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+}
+
+:any-link {
+  color: #e6b8a2;
+  text-decoration: none;
+}

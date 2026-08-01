@@ -1,0 +1,71 @@
+/*
+#5a3e36
+#8e5f57
+#c48b7c
+#e6b8a2
+#f3d9c6
+*/
+
+/* ==  Pages == */
+
+body {
+	background-color: #5a3e36;
+    background-image: linear-gradient(to bottom, #5a3e36 0%, #8e5f57 74%);
+	color: #e6b8a2;
+}
+
+.sidenav {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #8e5f57;
+  color: #e6b8a2;
+  border: 2px solid #D9CB9E;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  color: #e6b8a2;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f3d9c6;
+}
+
+header {
+  margin-left: 100px; /* Same as the width of the sidenav */
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  margin-left: 100px; /* Same as the width of the sidenav */
+  padding: 10px;
+  background-color: #c48b7c;
+	color: #e6b8a2;
+	border: 2px solid #f3d9c6;
+	padding: 5px;
+}
+
+footer {
+  font-size: 14px;
+  margin-left: 100px; /* Same as the width of the sidenav */
+  padding: 10px;
+  text-align: center;
+}
+
+:any-link {
+  color: #e6b8a2;
+  text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
