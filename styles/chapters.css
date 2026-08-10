@@ -52,6 +52,7 @@ main {
 	color: #e6b8a2;
 	border: 2px solid #f3d9c6;
 	padding: 5px;
+  text-align: center;
 }
 
 footer {
@@ -67,5 +68,5 @@ footer {
 }
 
 img {
-    width: 100%;
+    width: 50%;
 }
